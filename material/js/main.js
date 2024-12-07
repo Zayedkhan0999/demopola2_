@@ -1,3 +1,5 @@
+
+
 const body = document.body;
 const image = body.querySelector('#coin');
 const h1 = body.querySelector('h1');
@@ -84,12 +86,4 @@ setInterval(()=> {
     }
 }, 1000);
 
-
-
-
-show_8615259().then(() => {
-    // You need to add your user reward function here, which will be executed after the user watches the ad.
-    // For more details, please refer to the detailed instructions.
-    alert('You have seen ad ad!');
-})
-        
+import { SpeedInsights } from "@vercel/speed-insights/next"
